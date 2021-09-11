@@ -51,6 +51,7 @@ public class Controles : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && saltosDisponibles > 0)
         {
+
             rigidbody.velocity = salto;
             saltosDisponibles -= 1;
         }
