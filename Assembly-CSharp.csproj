@@ -57,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Controles.cs" />
-    <Compile Include="Assets\Scripts\CamaraControl.cs" />
     <Compile Include="Assets\Scripts\BotonPrueba.cs" />
+    <Compile Include="Assets\Scripts\CamaraControl.cs" />
+    <Compile Include="Assets\Scripts\RaycastCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -672,6 +673,34 @@
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{87DDCACD-93E9-24A5-511F-84A945706B4D}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
+      <Project>{30418F69-DE38-A70E-88DF-AA0922288D1F}</Project>
+      <Name>UnityEngine.SpatialTracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.csproj">
+      <Project>{CC5BA8ED-E9F8-E62C-7ABA-530404C47DF7}</Project>
+      <Name>Unity.XR.Management</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
+      <Project>{DF3A933E-F931-6E7C-2269-A5FA2686233E}</Project>
+      <Name>Unity.XR.Management.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Subsystem.Registration.csproj">
+      <Project>{94556181-183F-10AE-F8E3-3783786C354E}</Project>
+      <Name>Unity.Subsystem.Registration</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
+      <Project>{CF3B138F-D614-AD03-715B-7FB0A74B6B2B}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
+      <Project>{6C5BC660-9F60-DAF6-7208-09AA1E547275}</Project>
+      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
+      <Project>{64B85B95-6B7B-1966-54A3-C0ECF5789CBE}</Project>
+      <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
