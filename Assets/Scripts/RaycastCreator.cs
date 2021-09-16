@@ -4,26 +4,48 @@ using UnityEngine;
 
 public class RaycastCreator : MonoBehaviour
 {
-    // Start is called before the first frame update
+    GameObject referencia;
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        //RaycastHit hit;
-        //Debug.DrawRay(transform.position, 10f, Color.green);
-        //if (Physics.Raycast(transform.position, Vector3.forward, out hit, 10f))
-        //{
-            
-        //}
+        RaycastHit hit;
+
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 5f))
+        {
+            if (hit.transform.CompareTag("Boton"))
+            {
+
+                Debug.DrawRay(transform.position, transform.forward * 10f, Color.green);
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    referencia = hit.collider.gameObject;
+                    //referencia.GetComponent<>()
+                }
+
+            }
+            else
+            {
+                Debug.DrawRay(transform.position, transform.forward * 10f, Color.red);
+
+            }
+        }
+
+        
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawRay(transform.position, transform.forward * 10f);
-    }
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawRay(transform.position, transform.forward * 10f);
+    //}
+
+
 }
+ 
