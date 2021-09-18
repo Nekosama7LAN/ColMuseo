@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RaycastCreator : MonoBehaviour
 {
     GameObject referencia;
-    
+
+    Button botonPruebaUI;
+
     void Start()
     {
         
@@ -26,7 +29,8 @@ public class RaycastCreator : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     referencia = hit.collider.gameObject;
-                    //referencia.GetComponent<>()
+
+                    
                 }
 
             }
