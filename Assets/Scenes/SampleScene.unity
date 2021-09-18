@@ -719,8 +719,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!135 &799749519
-SphereCollider:
+--- !u!65 &799749519
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -730,7 +730,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &799749520
 MeshRenderer:
@@ -1712,6 +1712,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2964225117148605397, guid: 2ef98a90f6fb4e646ba13b2518716416, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b7e4aa50a91adf4bbdea18ff8dfd397, type: 2}
     - target: {fileID: -1806680513116206669, guid: 2ef98a90f6fb4e646ba13b2518716416, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
