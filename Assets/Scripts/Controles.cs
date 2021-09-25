@@ -1,82 +1,97 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Controles : MonoBehaviour
 {
-    private new Rigidbody rigidbody;
+    [Header("References")]
+    public Camera playerCamera;
 
-    [SerializeField] private int saltosDisponibles = 0;
+    [Header("General")]
+    public float gravityScale = -20f;
+    private bool disponibilidadDeComparacion;
 
-    public int saltos = 0;
+    [Header("Movement")]
+    public float walkSpeed = 5f;
+    public float runSpeed = 10f;
 
-    public float speed = 10f;
+    [Header("Rotation")]
+    public float rotationSensibility = 10f;
 
-    [SerializeField] private Vector3 salto;
-    [SerializeField] private Vector3 gravedad;
+    [Header("Jump")]
+    public float jumpHeight = 1.9f;
+    public int avalibleJumps = 2;
+    public int actualJumps = 2;
 
-    void Start()
+    private float cameraVerticalAngle;
+    Vector3 moveInput = Vector3.zero;
+    Vector3 rotationinput = Vector3.zero;
+    CharacterController characterController;
+
+    private void Awake()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        characterController = GetComponent<CharacterController>();
     }
 
-    void Update()
+    private void Update()
     {
-
-        Control();
-        CambioGravedad();
+        Look();
+        Move();
     }
 
-    private void Movimiento()
+    private void Move()
     {
-        float hor = Input.GetAxisRaw("Horizontal");
-        float ver = Input.GetAxisRaw("Vertical");
-
-        if (hor != 0.0f || ver != 0.0f)
+        if (characterController.isGrounded)
         {
-            Vector3 dir = transform.forward * ver + transform.right * hor;
+            moveInput = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+            moveInput = Vector3.ClampMagnitude(moveInput, 1f);
 
-            rigidbody.MovePosition(transform.position + dir * speed * Time.deltaTime);
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                moveInput = transform.TransformDirection(moveInput) * runSpeed;
+            }
+            else
+            {
+                moveInput = transform.TransformDirection(moveInput) * walkSpeed;
+            }
+
         }
 
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetButtonDown("Jump"))
         {
-            speed = 20;
+            if (actualJumps > 0)
+            {
+                moveInput.y = Mathf.Sqrt(jumpHeight * -2f * gravityScale);
+                actualJumps--;
+                disponibilidadDeComparacion = true;
+            }
         }
 
+        moveInput.y += gravityScale * Time.deltaTime;
+        characterController.Move(moveInput * Time.deltaTime);
     }
 
-    private void Salto()
+    private void Look()
     {
+        rotationinput.x = Input.GetAxis("Mouse X") * rotationSensibility * Time.deltaTime;
+        rotationinput.y = Input.GetAxis("Mouse Y") * rotationSensibility * Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.Space) && saltosDisponibles > 0)
+        cameraVerticalAngle = cameraVerticalAngle + rotationinput.y;
+        cameraVerticalAngle = Mathf.Clamp(cameraVerticalAngle, -70, 70);
+
+        transform.Rotate(Vector3.up * rotationinput.x);
+        playerCamera.transform.localRotation = Quaternion.Euler(-cameraVerticalAngle, 0f, 0f);
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (disponibilidadDeComparacion == true)
         {
-
-            rigidbody.velocity = salto;
-            saltosDisponibles -= 1;
+            if (hit.collider.CompareTag("Terreno"))
+            {
+                print("golpe");
+                actualJumps = avalibleJumps;
+                disponibilidadDeComparacion = false;
+            }
         }
-    }
-
-    private void Control()
-    {
-        Movimiento();
-        Salto();
-    }
-
-    private void CambioGravedad()
-    {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            Physics.gravity = gravedad;
-
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.collider.CompareTag("Terreno"))
-        {
-            saltosDisponibles = saltos;
-        }
+        
     }
 }
