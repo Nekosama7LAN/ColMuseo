@@ -22,7 +22,7 @@ public class Controles : MonoBehaviour
     public int actualJumps = 2;
 
     private float cameraVerticalAngle;
-    Vector3 moveInput = Vector3.zero;
+    public Vector3 moveInput = Vector3.zero;
     Vector3 rotationinput = Vector3.zero;
     CharacterController characterController;
 
@@ -35,6 +35,10 @@ public class Controles : MonoBehaviour
     {
         Look();
         Move();
+        if (Input.GetKey(KeyCode.U))
+        {
+            transform.Translate(this.transform.position.x + 1 * Time.deltaTime, this.transform.position.y, this.transform.position.z);
+        }
     }
 
     private void Move()
@@ -87,11 +91,14 @@ public class Controles : MonoBehaviour
         {
             if (hit.collider.CompareTag("Terreno"))
             {
-                print("golpe");
                 actualJumps = avalibleJumps;
                 disponibilidadDeComparacion = false;
             }
         }
+        
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
         
     }
 }

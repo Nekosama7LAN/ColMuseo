@@ -15,6 +15,8 @@ public class Score : MonoBehaviour
     [SerializeField] CorrectAnswer pregunta10 = null;
     [SerializeField] CorrectAnswer pregunta11 = null;
     [SerializeField] CorrectAnswer pregunta12 = null;
+    [SerializeField] CorrectAnswer pregunta13 = null;
+    [SerializeField] CorrectAnswer pregunta14 = null;
 
     public Text score;
     int counter = 0;
@@ -34,6 +36,9 @@ public class Score : MonoBehaviour
         pregunta10.OnCorrect += AumentoPuntos;
         pregunta11.OnCorrect += AumentoPuntos;
         pregunta12.OnCorrect += AumentoPuntos;
+        pregunta13.OnCorrect += AumentoPuntos;
+        pregunta14.OnCorrect += AumentoPuntos;
+
 
     }
 

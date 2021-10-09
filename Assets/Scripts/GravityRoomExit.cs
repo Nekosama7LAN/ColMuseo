@@ -7,7 +7,7 @@ public class GravityRoomExit : MonoBehaviour
 {
     public event Action OnExit;
 
-    private void AumentarGravedad()
+    private void ReducirGravedad()
     {
         OnExit?.Invoke();
     }
@@ -16,7 +16,8 @@ public class GravityRoomExit : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            AumentarGravedad();
+            ReducirGravedad();
         }
     }
+    
 }
