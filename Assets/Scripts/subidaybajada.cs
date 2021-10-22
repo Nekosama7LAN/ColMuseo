@@ -4,28 +4,42 @@ using UnityEngine;
 
 public class subidaybajada : MonoBehaviour
 {
-    private Vector3 Initpos;
-    [SerializeField] Vector3 DestPos;
-    private Vector3 Finalpos;
+    [SerializeReference]private float Initpos = 9;
 
-    public float speed = 0;
-    void Start()
+    [SerializeReference] private float Finalpos = 12;
+
+    [SerializeReference] private float speed = 0;
+
+    [SerializeReference] Vector3 nuevaPosicion;
+
+    [SerializeField] GameObject PositionReference;
+    int counter = 4;
+
+    private void Start()
     {
+        nuevaPosicion = new Vector3(-22.48328f, Finalpos, 0.504017f);
+    }
+
+    void Update()
+    {
+        //float PosY = transform.position.y;
+
+
+        //if (PosY <= 12f)
+        //{
+
+        //    Finalpos = Initpos + DestPos * Time.deltaTime * speed;
+        //    transform.position = Finalpos;
+        //}
+        if (Input.GetKey(KeyCode.U))
+        {
+            Rotation();
+        }
 
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Rotation()
     {
-        float PosY = transform.position.y;
-        print(PosY);
-
-        if (PosY <= 12f)
-        {
-            Initpos = transform.position;
-            Finalpos = Initpos + DestPos * Time.deltaTime * speed;
-            transform.position = Finalpos;
-        }
-
+        transform.position = nuevaPosicion * Time.deltaTime * speed;
     }
 }
