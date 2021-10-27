@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\Scripts\CorrectAnswer.cs" />
+    <Compile Include="Assets\Scripts\Gravityflooe.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
@@ -78,7 +79,7 @@
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\Scripts\rotación.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\Scripts\Gravityflooe.cs" />
+    <Compile Include="Assets\Scripts\CursorHide.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
