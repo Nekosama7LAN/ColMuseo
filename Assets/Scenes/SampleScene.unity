@@ -222,9 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 50780933}
-  OtraRespuesta2: {fileID: 65267155}
-  OtraRespuesta3: {fileID: 1671431498}
+  listOfAnswers: []
 --- !u!135 &10794185
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -338,9 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1945571757}
-  OtraRespuesta2: {fileID: 727134097}
-  OtraRespuesta3: {fileID: 1431497971}
+  listOfAnswers: []
 --- !u!1001 &23075979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -453,9 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 199950835}
-  OtraRespuesta2: {fileID: 1681078623}
-  OtraRespuesta3: {fileID: 1624137895}
+  listOfAnswers: []
 --- !u!1 &26505211
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,9 +759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 10794183}
-  respuestaIncorrecta2: {fileID: 65267155}
-  respuestaIncorrecta3: {fileID: 1671431498}
+  listOfWrongAnswers: []
 --- !u!1 &53520407
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,9 +953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 10794183}
-  OtraRespuesta2: {fileID: 50780933}
-  OtraRespuesta3: {fileID: 1671431498}
+  listOfAnswers: []
 --- !u!1 &68206083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,9 +1161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1539281982}
-  OtraRespuesta2: {fileID: 303437410}
-  OtraRespuesta3: {fileID: 1221729483}
+  listOfAnswers: []
 --- !u!1 &73147474
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,7 +1222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 73147478}
 --- !u!54 &73147478
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1307,12 +1294,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73147474}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 93.3, y: 10.67, z: 91.85}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 41.6992, y: -3.1707659, z: 17.84262}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &76986610
 GameObject:
@@ -1471,9 +1458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 708153406}
-  OtraRespuesta2: {fileID: 502790196}
-  OtraRespuesta3: {fileID: 1475730934}
+  listOfAnswers: []
 --- !u!1 &110459515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,7 +1519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 110459519}
 --- !u!54 &110459519
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1607,12 +1591,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110459515}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.04, y: 10.67, z: 91.85}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 37.439198, y: -3.1707659, z: 17.84262}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &111396914
 PrefabInstance:
@@ -1726,9 +1710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 393505266}
-  respuestaIncorrecta2: {fileID: 243182461}
-  respuestaIncorrecta3: {fileID: 736858023}
+  listOfWrongAnswers: []
 --- !u!1001 &117064322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1841,9 +1823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 321405623}
-  respuestaIncorrecta2: {fileID: 488932339}
-  respuestaIncorrecta3: {fileID: 388509618}
+  listOfWrongAnswers: []
 --- !u!1 &121287607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,12 +2010,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127188443}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.04, y: 10.67, z: 89.35}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 37.439198, y: -3.1707659, z: 15.342621}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &127188448
 Rigidbody:
@@ -2065,7 +2045,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 127188448}
 --- !u!65 &127188450
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2139,7 +2118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 131904325}
 --- !u!54 &131904325
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2212,12 +2190,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131904321}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 93.33, y: 10.67, z: 94.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 41.7292, y: -3.1707659, z: 20.292625}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &135977790
 PrefabInstance:
@@ -2331,9 +2309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1856538503}
-  OtraRespuesta2: {fileID: 1753039578}
-  OtraRespuesta3: {fileID: 1078078013}
+  listOfAnswers: []
 --- !u!1 &157415069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2643,9 +2619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 555449130}
-  respuestaIncorrecta2: {fileID: 1086498528}
-  respuestaIncorrecta3: {fileID: 636651581}
+  listOfWrongAnswers: []
 --- !u!1 &165630109
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,7 +2855,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 176258364}
 --- !u!54 &176258364
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2954,12 +2927,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176258360}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.28, y: 10.67, z: 91.85}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 45.679195, y: -3.1707659, z: 17.84262}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &180389645
 GameObject:
@@ -3286,9 +3259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 1681078623}
-  respuestaIncorrecta2: {fileID: 23075981}
-  respuestaIncorrecta3: {fileID: 1624137895}
+  listOfWrongAnswers: []
 --- !u!135 &199950837
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3587,9 +3558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1581588324}
-  OtraRespuesta2: {fileID: 485727659}
-  OtraRespuesta3: {fileID: 1762170888}
+  listOfAnswers: []
 --- !u!1001 &240752854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3772,9 +3741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 393505266}
-  OtraRespuesta2: {fileID: 111396916}
-  OtraRespuesta3: {fileID: 736858023}
+  listOfAnswers: []
 --- !u!1 &266267142
 GameObject:
   m_ObjectHideFlags: 0
@@ -4211,7 +4178,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 281784852}
 --- !u!54 &281784852
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4284,12 +4250,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281784848}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.236, y: 10.67, z: 89.35}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 45.635197, y: -3.1707659, z: 15.342621}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &289652262
 GameObject:
@@ -4530,9 +4496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1539281982}
-  OtraRespuesta2: {fileID: 72295500}
-  OtraRespuesta3: {fileID: 1221729483}
+  listOfAnswers: []
 --- !u!1 &310643306
 GameObject:
   m_ObjectHideFlags: 0
@@ -4768,9 +4732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 117064324}
-  OtraRespuesta2: {fileID: 488932339}
-  OtraRespuesta3: {fileID: 388509618}
+  listOfAnswers: []
 --- !u!1 &352425565
 GameObject:
   m_ObjectHideFlags: 0
@@ -5242,9 +5204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 117064324}
-  OtraRespuesta2: {fileID: 321405623}
-  OtraRespuesta3: {fileID: 488932339}
+  listOfAnswers: []
 --- !u!1001 &392145563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5418,9 +5378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 243182461}
-  OtraRespuesta2: {fileID: 111396916}
-  OtraRespuesta3: {fileID: 736858023}
+  listOfAnswers: []
 --- !u!135 &393505268
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5673,9 +5631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1656550237}
-  OtraRespuesta2: {fileID: 1185392605}
-  OtraRespuesta3: {fileID: 1731003955}
+  listOfAnswers: []
 --- !u!1001 &463296415
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5862,9 +5818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 0}
-  OtraRespuesta2: {fileID: 0}
-  OtraRespuesta3: {fileID: 0}
+  listOfAnswers: []
 --- !u!1001 &488932337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5977,9 +5931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 117064324}
-  OtraRespuesta2: {fileID: 321405623}
-  OtraRespuesta3: {fileID: 388509618}
+  listOfAnswers: []
 --- !u!1 &502790196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dbd403f005584e74484bef4d9d7da668, type: 3}
@@ -6010,9 +5962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 708153406}
-  OtraRespuesta2: {fileID: 88813550}
-  OtraRespuesta3: {fileID: 1475730934}
+  listOfAnswers: []
 --- !u!1001 &518226693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6147,7 +6097,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 524274702}
 --- !u!54 &524274702
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6220,12 +6169,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524274698}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 101.335, y: 10.67, z: 89.35}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 49.734196, y: -3.1707659, z: 15.342621}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &530221921
 GameObject:
@@ -6626,9 +6575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 162496606}
-  OtraRespuesta2: {fileID: 1086498528}
-  OtraRespuesta3: {fileID: 636651581}
+  listOfAnswers: []
 --- !u!1 &560622868
 GameObject:
   m_ObjectHideFlags: 0
@@ -6866,7 +6813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 580711493}
 --- !u!54 &580711493
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6939,12 +6885,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580711489}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 101.42, y: 10.67, z: 94.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 49.819195, y: -3.1707659, z: 20.292625}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &586280783
 GameObject:
@@ -7409,9 +7355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 0}
-  OtraRespuesta2: {fileID: 0}
-  OtraRespuesta3: {fileID: 0}
+  listOfAnswers: []
 --- !u!1 &637759509
 GameObject:
   m_ObjectHideFlags: 0
@@ -7619,9 +7563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1606682330}
-  OtraRespuesta2: {fileID: 1461044537}
-  OtraRespuesta3: {fileID: 1649787149}
+  listOfAnswers: []
 --- !u!1 &658722718
 GameObject:
   m_ObjectHideFlags: 0
@@ -7690,7 +7632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Collider: {fileID: 2126685103}
   ColliderSalida: {fileID: 406854986}
-  Player: {fileID: 1179105543}
+  Player: {fileID: 0}
 --- !u!114 &691829171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7992,9 +7934,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 502790196}
-  respuestaIncorrecta2: {fileID: 88813550}
-  respuestaIncorrecta3: {fileID: 1475730934}
+  listOfWrongAnswers:
+  - {fileID: 502790196}
+  - {fileID: 88813550}
+  - {fileID: 1475730934}
 --- !u!135 &708153408
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8120,9 +8063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1016782439}
-  OtraRespuesta2: {fileID: 1838337771}
-  OtraRespuesta3: {fileID: 1359551665}
+  listOfAnswers: []
 --- !u!1 &722311333
 GameObject:
   m_ObjectHideFlags: 0
@@ -8183,7 +8124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 722311337}
 --- !u!54 &722311337
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8256,12 +8196,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722311333}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.31, y: 10.67, z: 94.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 45.709194, y: -3.1707659, z: 20.292625}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724997945
 GameObject:
@@ -8466,9 +8406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1945571757}
-  OtraRespuesta2: {fileID: 1431497971}
-  OtraRespuesta3: {fileID: 21130451}
+  listOfAnswers: []
 --- !u!1001 &736858021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8573,9 +8511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 393505266}
-  OtraRespuesta2: {fileID: 243182461}
-  OtraRespuesta3: {fileID: 111396916}
+  listOfAnswers: []
 --- !u!1001 &745503821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8688,9 +8624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 2075686628}
-  respuestaIncorrecta2: {fileID: 1411994371}
-  respuestaIncorrecta3: {fileID: 1646816805}
+  listOfWrongAnswers: []
 --- !u!1 &749113373
 GameObject:
   m_ObjectHideFlags: 0
@@ -8874,12 +8808,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758015218}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 86.835, y: 10.758426, z: 91.6767}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35.234196, y: -3.0823402, z: 17.66932}
   m_LocalScale: {x: 2.343571, y: 0.1, z: 7.398238}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &764200539
 PrefabInstance:
@@ -9546,6 +9480,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862248147}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &872643369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 872643370}
+  m_Layer: 0
+  m_Name: Fallen Glass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &872643370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872643369}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -33.90511, y: 0.4659586, z: 87.15077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 127188447}
+  - {fileID: 758015222}
+  - {fileID: 110459522}
+  - {fileID: 1255954376}
+  - {fileID: 131904328}
+  - {fileID: 722311340}
+  - {fileID: 73147481}
+  - {fileID: 176258367}
+  - {fileID: 1947128221}
+  - {fileID: 1671609631}
+  - {fileID: 2013400285}
+  - {fileID: 281784855}
+  - {fileID: 524274705}
+  - {fileID: 580711496}
+  m_Father: {fileID: 1808791768}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &927133975
 GameObject:
   m_ObjectHideFlags: 0
@@ -10223,9 +10201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 719036852}
-  OtraRespuesta2: {fileID: 1838337771}
-  OtraRespuesta3: {fileID: 1359551665}
+  listOfAnswers: []
 --- !u!1001 &1018097838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10826,9 +10802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 1753039578}
-  respuestaIncorrecta2: {fileID: 135977792}
-  respuestaIncorrecta3: {fileID: 1856538503}
+  listOfWrongAnswers: []
 --- !u!1001 &1086498526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10941,9 +10915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 162496606}
-  OtraRespuesta2: {fileID: 555449130}
-  OtraRespuesta3: {fileID: 636651581}
+  listOfAnswers: []
 --- !u!1 &1110798659
 GameObject:
   m_ObjectHideFlags: 0
@@ -11824,8 +11796,8 @@ GameObject:
   - component: {fileID: 1179105548}
   - component: {fileID: 1179105547}
   - component: {fileID: 1179105546}
-  - component: {fileID: 1179105543}
   - component: {fileID: 1179105544}
+  - component: {fileID: 1179105543}
   m_Layer: 2
   m_Name: Player
   m_TagString: Player
@@ -11842,17 +11814,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1179105542}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a838e5c63e1d35b42a9cb96778838845, type: 3}
+  m_Script: {fileID: 11500000, guid: e20b3f34f33ede1499106fa876b60206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 963194227}
   gravityScale: -20
-  walkSpeed: 3
-  runSpeed: 5
-  rotationSensibility: 270
+  walkSpeed: 5
+  runSpeed: 10
+  rotationSensibility: 250
   jumpHeight: 1.9
-  avalibleJumps: 1
-  actualJumps: 1
+  avalibleJumps: 2
+  actualJumps: 2
   moveInput: {x: 0, y: 0, z: 0}
 --- !u!143 &1179105544
 CharacterController:
@@ -11929,7 +11901,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179105542}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 86.83, y: 12.071, z: 91.53}
+  m_LocalPosition: {x: 86.83, y: 13.15, z: 81.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
@@ -12048,9 +12020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1656550237}
-  OtraRespuesta2: {fileID: 447024940}
-  OtraRespuesta3: {fileID: 1731003955}
+  listOfAnswers: []
 --- !u!1 &1186474324
 GameObject:
   m_ObjectHideFlags: 0
@@ -12283,9 +12253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1539281982}
-  OtraRespuesta2: {fileID: 303437410}
-  OtraRespuesta3: {fileID: 72295500}
+  listOfAnswers: []
 --- !u!1 &1223336919
 GameObject:
   m_ObjectHideFlags: 0
@@ -12730,7 +12698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 0}
 --- !u!23 &1255954374
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12787,12 +12754,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255954369}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.04, y: 10.67, z: 94.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 37.439198, y: -3.1707659, z: 20.292625}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1273966175
 GameObject:
@@ -13475,9 +13442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 719036852}
-  OtraRespuesta2: {fileID: 1016782439}
-  OtraRespuesta3: {fileID: 1838337771}
+  listOfAnswers: []
 --- !u!1 &1388093715
 GameObject:
   m_ObjectHideFlags: 0
@@ -13623,9 +13588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 2075686628}
-  OtraRespuesta2: {fileID: 745503823}
-  OtraRespuesta3: {fileID: 1646816805}
+  listOfAnswers: []
 --- !u!1001 &1431497969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13738,9 +13701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1945571757}
-  OtraRespuesta2: {fileID: 727134097}
-  OtraRespuesta3: {fileID: 21130451}
+  listOfAnswers: []
 --- !u!1 &1446857699
 GameObject:
   m_ObjectHideFlags: 0
@@ -14082,9 +14043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1606682330}
-  OtraRespuesta2: {fileID: 654828157}
-  OtraRespuesta3: {fileID: 1649787149}
+  listOfAnswers: []
 --- !u!1 &1467442687
 GameObject:
   m_ObjectHideFlags: 0
@@ -14151,9 +14110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 708153406}
-  OtraRespuesta2: {fileID: 502790196}
-  OtraRespuesta3: {fileID: 88813550}
+  listOfAnswers: []
 --- !u!1001 &1485024094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14646,9 +14603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 303437410}
-  respuestaIncorrecta2: {fileID: 72295500}
-  respuestaIncorrecta3: {fileID: 1221729483}
+  listOfWrongAnswers: []
 --- !u!135 &1539281984
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14949,9 +14904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 230384629}
-  respuestaIncorrecta2: {fileID: 485727659}
-  respuestaIncorrecta3: {fileID: 1762170888}
+  listOfWrongAnswers: []
 --- !u!1001 &1606682328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15064,9 +15017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 654828157}
-  OtraRespuesta2: {fileID: 1461044537}
-  OtraRespuesta3: {fileID: 1649787149}
+  listOfAnswers: []
 --- !u!1001 &1624137893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15167,9 +15118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 199950835}
-  OtraRespuesta2: {fileID: 1681078623}
-  OtraRespuesta3: {fileID: 23075981}
+  listOfAnswers: []
 --- !u!1001 &1646816803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15270,9 +15219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 2075686628}
-  OtraRespuesta2: {fileID: 1411994371}
-  OtraRespuesta3: {fileID: 745503823}
+  listOfAnswers: []
 --- !u!1001 &1649787147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15377,9 +15324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 1606682330}
-  respuestaIncorrecta2: {fileID: 654828157}
-  respuestaIncorrecta3: {fileID: 1461044537}
+  listOfWrongAnswers: []
 --- !u!1001 &1656550235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15492,9 +15437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 447024940}
-  OtraRespuesta2: {fileID: 1185392605}
-  OtraRespuesta3: {fileID: 1731003955}
+  listOfAnswers: []
 --- !u!1001 &1671431496
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15599,9 +15542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 10794183}
-  OtraRespuesta2: {fileID: 50780933}
-  OtraRespuesta3: {fileID: 65267155}
+  listOfAnswers: []
 --- !u!1 &1671609627
 GameObject:
   m_ObjectHideFlags: 0
@@ -15690,12 +15631,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671609627}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 104.513, y: 10.758426, z: 91.6767}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 52.912197, y: -3.0823402, z: 17.66932}
   m_LocalScale: {x: 2.343571, y: 0.1, z: 7.398238}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1681078621
 PrefabInstance:
@@ -15805,9 +15746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 199950835}
-  OtraRespuesta2: {fileID: 23075981}
-  OtraRespuesta3: {fileID: 1624137895}
+  listOfAnswers: []
 --- !u!1 &1688429642
 GameObject:
   m_ObjectHideFlags: 0
@@ -16003,9 +15942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 1656550237}
-  respuestaIncorrecta2: {fileID: 447024940}
-  respuestaIncorrecta3: {fileID: 1185392605}
+  listOfWrongAnswers: []
 --- !u!1001 &1753039576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16114,9 +16051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1856538503}
-  OtraRespuesta2: {fileID: 135977792}
-  OtraRespuesta3: {fileID: 1078078013}
+  listOfAnswers: []
 --- !u!1 &1757090278
 GameObject:
   m_ObjectHideFlags: 0
@@ -16297,9 +16232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 0}
-  OtraRespuesta2: {fileID: 0}
-  OtraRespuesta3: {fileID: 0}
+  listOfAnswers: []
 --- !u!1 &1808791767
 GameObject:
   m_ObjectHideFlags: 0
@@ -16332,6 +16265,7 @@ Transform:
   - {fileID: 1110798662}
   - {fileID: 5162800584044620419}
   - {fileID: 281362785}
+  - {fileID: 872643370}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16593,9 +16527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 719036852}
-  respuestaIncorrecta2: {fileID: 1016782439}
-  respuestaIncorrecta3: {fileID: 1359551665}
+  listOfWrongAnswers: []
 --- !u!1 &1848240200
 GameObject:
   m_ObjectHideFlags: 0
@@ -16903,9 +16835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1753039578}
-  OtraRespuesta2: {fileID: 135977792}
-  OtraRespuesta3: {fileID: 1078078013}
+  listOfAnswers: []
 --- !u!1 &1857804310
 GameObject:
   m_ObjectHideFlags: 0
@@ -17324,9 +17254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respuestaIncorrecta1: {fileID: 727134097}
-  respuestaIncorrecta2: {fileID: 1431497971}
-  respuestaIncorrecta3: {fileID: 21130451}
+  listOfWrongAnswers: []
 --- !u!1 &1947128214
 GameObject:
   m_ObjectHideFlags: 0
@@ -17387,7 +17315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 1947128218}
 --- !u!54 &1947128218
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17460,12 +17387,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947128214}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 101.38, y: 10.67, z: 91.85}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 49.779194, y: -3.1707659, z: 17.84262}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1986583853
 GameObject:
@@ -17840,7 +17767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da5df62ba1d56a43be9939bd80b0585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rig: {fileID: 2013400282}
 --- !u!54 &2013400282
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17913,12 +17839,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013400278}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 93.35, y: 10.67, z: 89.35}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 41.749195, y: -3.1707659, z: 15.342621}
   m_LocalScale: {x: 2, y: 0.12, z: 2}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 872643370}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2015580179
 PrefabInstance:
@@ -18270,9 +18196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OtraRespuesta1: {fileID: 1411994371}
-  OtraRespuesta2: {fileID: 745503823}
-  OtraRespuesta3: {fileID: 1646816805}
+  listOfAnswers: []
 --- !u!135 &2075686630
 SphereCollider:
   m_ObjectHideFlags: 0

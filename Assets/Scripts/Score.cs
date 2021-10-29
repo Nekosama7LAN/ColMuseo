@@ -19,7 +19,7 @@ public class Score : MonoBehaviour
     [SerializeField] CorrectAnswer pregunta14 = null;
 
     public Text score;
-    int counter = 0;
+    private int counter = 0;
 
     void Start()
     {

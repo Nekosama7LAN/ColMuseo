@@ -1,15 +1,12 @@
 using UnityEngine;
+using System.Collections.Generic;
 using System;
-
 
 public class WrongAnswer : MonoBehaviour
 {
     public event Action OnWrong;
-    [SerializeField] private GameObject OtraRespuesta1;
-    [SerializeField] private GameObject OtraRespuesta2;
-    [SerializeField] private GameObject OtraRespuesta3;
 
-
+    [SerializeField] private List<GameObject> listOfAnswers = new List<GameObject>();
 
     public void BotonIncorrecto()
     {
@@ -24,10 +21,10 @@ public class WrongAnswer : MonoBehaviour
 
     private void DestroyButtons()
     {
-        OtraRespuesta1.SetActive(false);
-        OtraRespuesta2.SetActive(false);
-        OtraRespuesta3.SetActive(false);
+        for (int i = 0; i < listOfAnswers.Count ; i++)
+        {
+            listOfAnswers[i].SetActive(false);
+        }
         this.gameObject.SetActive(false);
-
     }
 }

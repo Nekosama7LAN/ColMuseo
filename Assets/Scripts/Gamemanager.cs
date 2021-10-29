@@ -7,7 +7,7 @@ public class Gamemanager : MonoBehaviour
     [SerializeField] GravityRoomEnter Collider = null;
     [SerializeField] GravityRoomExit ColliderSalida = null;
 
-    [SerializeField] Controles Player = null;
+    [SerializeField] PlayerController Player = null;
 
 
 
