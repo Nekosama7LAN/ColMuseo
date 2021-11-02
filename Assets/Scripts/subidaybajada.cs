@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class subidaybajada : MonoBehaviour
 {
-    [SerializeReference]private float Initpos = 9;
+    [SerializeReference] private float Initpos = 9;
 
     [SerializeReference] private float Finalpos = 12;
 
@@ -42,4 +42,7 @@ public class subidaybajada : MonoBehaviour
     {
         transform.position = nuevaPosicion * Time.deltaTime * speed;
     }
+    // 1- hacer que el objeto gire hacia la derechaa una velocidad razonable
+    // 2- hacer que el objeto suba en el Y hasta una posicion predefinida
+    // 3- hacer que el objeto al llegar a esa posicion desactive su subida y comience a bajar hasta la posicion inicial
 }

@@ -1,35 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Gamemanager : MonoBehaviour
 {
-    [SerializeField] GravityRoomEnter Collider = null;
-    [SerializeField] GravityRoomExit ColliderSalida = null;
+    [SerializeField] GravityRoomEnter gravityRoomEnter = null;
+    [SerializeField] GravityRoomExit gravityRoomExit = null;
 
-    [SerializeField] PlayerController Player = null;
-
-
-
+    [SerializeField] PlayerController player = null;
 
     void Start()
     {
-        ColliderSalida.OnExit += NormalizarGravedad;
-        Collider.OnEnter += CambioGravedad;
+        gravityRoomExit.OnExit += GravityRestart;
+        gravityRoomEnter.OnEnter += RoomOfGravityUp;
     }
 
-    void Update()
+    void RoomOfGravityUp()
     {
-        
+        player.gravityScale = -2f;
     }
 
-    void CambioGravedad()
+    void GravityRestart()
     {
-        Player.gravityScale = -2f;
-    }
-
-    void NormalizarGravedad()
-    {
-        Player.gravityScale = -20;
+        player.gravityScale = -20;
     }
 }
