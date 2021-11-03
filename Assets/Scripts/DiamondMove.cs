@@ -12,7 +12,6 @@ public class DiamondMove : MonoBehaviour
     public float speed = 0;
     void Update()
     {
-        RotationOfObject();
         UpAndDownObject();
     }
 
@@ -25,6 +24,7 @@ public class DiamondMove : MonoBehaviour
             transform.position = Finalpos;
             counter = counter + 1 * Time.deltaTime;
             counterDown = 5f;
+            transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
         }
         else
         {
@@ -32,16 +32,11 @@ public class DiamondMove : MonoBehaviour
             Finalpos = Initpos - DestPos * Time.deltaTime * speed;
             transform.position = Finalpos;
             counterDown = counterDown - 1 * Time.deltaTime;
+            transform.Rotate(new Vector3(0f, -100f, 0f) * Time.deltaTime);
             if (counterDown < 0)
             {
                 counter = 0;
             }
         }
-        print(counter + "counter subida");
-        print(counterDown + "Bajada");
-    }
-    private void RotationOfObject()
-    {
-        transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
     }
 }
