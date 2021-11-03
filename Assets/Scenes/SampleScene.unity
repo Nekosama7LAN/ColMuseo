@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.45123577, g: 0.5009529, b: 0.57353264, a: 1}
+  m_IndirectSpecularColor: {r: 0.45123637, g: 0.50095326, b: 0.5735332, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1457,11 +1457,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 86974220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1864f2e9d8a167b40bf575e6bc85b797, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f3b35c3298ae0c4bb72226b03ecd719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestPos: {x: 0, y: 5, z: 0}
-  speed: 1
+  DestPos: {x: 0, y: 0, z: 0}
+  speed: 0
 --- !u!65 &86974222
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13872,6 +13872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: terreno colmuseo0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ff9c18684b0f27744ab7c6c5c735e68c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff9c18684b0f27744ab7c6c5c735e68c, type: 3}
 --- !u!1 &1452556886
@@ -18699,6 +18703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Estacion1.3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e17c75ac19826d54d90d2dbbada06552, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e17c75ac19826d54d90d2dbbada06552, type: 3}
 --- !u!1 &2106221275
@@ -19302,13 +19310,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2558261717507689452}
-  m_LocalRotation: {x: 0.70010304, y: -0.098427676, z: 0.09839333, w: 0.7003475}
-  m_LocalPosition: {x: -22.483276, y: 11.38, z: 0.504017}
+  m_LocalRotation: {x: 0.7068733, y: 0.012746738, z: -0.012819018, w: 0.7071092}
+  m_LocalPosition: {x: -22.67, y: 8.26, z: 0.49}
   m_LocalScale: {x: 1000, y: 375, z: 250}
   m_Children: []
   m_Father: {fileID: 5162800584044620419}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 89.98, y: 704, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 720, z: -2.077}
 --- !u!33 &788059300100903966
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -19985,8 +19993,6 @@ GameObject:
   - component: {fileID: 766537327547111267}
   - component: {fileID: 8968788055194128215}
   - component: {fileID: 4004213726065241075}
-  - component: {fileID: 2558261717507689453}
-  - component: {fileID: 2558261717507689454}
   m_Layer: 0
   m_Name: Cube.023
   m_TagString: Untagged
@@ -19994,37 +20000,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2558261717507689453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2558261717507689452}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f77aa63a5e2f939449319eb84e7a5ddd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Initpos: 9
-  Finalpos: 12
-  speed: 1
-  nuevaPosicion: {x: 0, y: 0, z: 0}
-  PositionReference: {fileID: 0}
---- !u!114 &2558261717507689454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2558261717507689452}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1864f2e9d8a167b40bf575e6bc85b797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestPos: {x: 0, y: 0, z: 0}
-  speed: 2
 --- !u!1 &2578036027465117059
 GameObject:
   m_ObjectHideFlags: 0
