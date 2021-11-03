@@ -58,12 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\Scripts\CorrectAnswer.cs" />
+    <Compile Include="Assets\Scripts\RotatioIcosphere.cs" />
+    <Compile Include="Assets\Scripts\Elevator.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Gamemanager.cs" />
-    <Compile Include="Assets\Scripts\subidaybajada.cs" />
     <Compile Include="Assets\Scripts\GravityRoomEnter.cs" />
     <Compile Include="Assets\Scripts\ToboganForce.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
@@ -72,14 +73,15 @@
     <Compile Include="Assets\Scripts\FallenGlass.cs" />
     <Compile Include="Assets\Scripts\WrongAnswer.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\Scripts\DiamondMove.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\Scripts\GravityRoomExit.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
+    <Compile Include="Assets\Scripts\ElevatorButton.cs" />
     <Compile Include="Assets\Scripts\CursorHide.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\Isabel\rotateAndDown.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
