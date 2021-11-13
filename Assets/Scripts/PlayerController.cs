@@ -26,6 +26,12 @@ public class PlayerController : MonoBehaviour
     Vector3 rotationinput = Vector3.zero;
     CharacterController characterController;
 
+    private Vector3 Initpos;
+    [SerializeField] Vector3 DestPos;
+    private Vector3 Finalpos;
+    public float counter = 5;
+    public float speed = 0;
+
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
@@ -35,6 +41,7 @@ public class PlayerController : MonoBehaviour
     {
         Look();
         Move();
+        PlataformUp();
         if (Input.GetKey(KeyCode.U))
         {
             transform.Translate(this.transform.position.x + 1 * Time.deltaTime, this.transform.position.y, this.transform.position.z);
@@ -96,5 +103,16 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+    }
+
+    private void PlataformUp()
+    {
+        if (counter < 5f)
+        {
+            Initpos = transform.position;
+            Finalpos = Initpos + DestPos * Time.deltaTime * speed;
+            transform.position = Finalpos;
+            counter = counter + 1 * Time.deltaTime;
+        }
     }
 }
