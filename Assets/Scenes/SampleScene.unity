@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.45123577, g: 0.5009529, b: 0.57353264, a: 1}
+  m_IndirectSpecularColor: {r: 0.4512365, g: 0.5009535, b: 0.57353336, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9264,6 +9264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   elevator: {fileID: 1270192024}
+  player: {fileID: 1179105543}
 --- !u!65 &936538143
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16106,6 +16107,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f355b7da3c36ed347bc8f668591c32f6, type: 3}
       propertyPath: m_Name
       value: Museo 18 noviembre
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f355b7da3c36ed347bc8f668591c32f6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8628502785719625371, guid: f355b7da3c36ed347bc8f668591c32f6, type: 3}
       propertyPath: m_Materials.Array.data[0]

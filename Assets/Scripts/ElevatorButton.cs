@@ -1,13 +1,12 @@
 using UnityEngine;
-using System;
 
 public class ElevatorButton : MonoBehaviour
 {
-    public event Action OnElevator;
     [SerializeField] Elevator elevator;
-
+    [SerializeField] PlayerController player;
     private void OnMouseDown()
     {
         elevator.counter = 0;
+        player.counter = 0;
     }
 }
