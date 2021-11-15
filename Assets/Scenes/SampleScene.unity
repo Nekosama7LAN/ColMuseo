@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18376291, g: 0.22913247, b: 0.30449045, a: 1}
+  m_IndirectSpecularColor: {r: 0.18376288, g: 0.22913277, b: 0.30449075, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -20003,7 +20003,7 @@ GameObject:
   - component: {fileID: 2004743329}
   - component: {fileID: 2004743330}
   m_Layer: 2
-  m_Name: GameObject
+  m_Name: DeathSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20033,7 +20033,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7ff488737a434e64ba28fe395eb86eb3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bbb71111f84642b4bb47ea36c8466933, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
