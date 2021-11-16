@@ -6501,6 +6501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 465181270}
+  - component: {fileID: 465181271}
   m_Layer: 0
   m_Name: Pregunta 16
   m_TagString: Untagged
@@ -6528,6 +6529,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &465181271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465181269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 1599459227}
+  - {fileID: 1589425795}
+  - {fileID: 379259774}
+  - {fileID: 1656965808}
+  listOfWrongAnswers:
+  - {fileID: 1599459228}
+  - {fileID: 379259775}
+  - {fileID: 1656965809}
+  correctAnswer: {fileID: 1589425796}
 --- !u!1 &486961585
 GameObject:
   m_ObjectHideFlags: 0
@@ -11330,6 +11353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 837179262}
+  - component: {fileID: 837179263}
   m_Layer: 0
   m_Name: Pregunta 17
   m_TagString: Untagged
@@ -11357,6 +11381,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &837179263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837179261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 2032696220}
+  - {fileID: 1718429092}
+  - {fileID: 867894069}
+  - {fileID: 915010844}
+  listOfWrongAnswers:
+  - {fileID: 1718429093}
+  - {fileID: 867894070}
+  - {fileID: 915010845}
+  correctAnswer: {fileID: 2032696221}
 --- !u!1001 &848411165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15463,7 +15509,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1115014266}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1115014268
@@ -21885,7 +21931,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1589425795}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1589425797
@@ -21997,7 +22043,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1599459227}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1599459229
@@ -27076,6 +27122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1982120458}
+  - component: {fileID: 1982120459}
   m_Layer: 0
   m_Name: Pregunta 15
   m_TagString: Untagged
@@ -27103,6 +27150,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1982120459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982120457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 1115014266}
+  - {fileID: 2076537425}
+  - {fileID: 1271258190}
+  - {fileID: 1837645422}
+  listOfWrongAnswers:
+  - {fileID: 1115014267}
+  - {fileID: 1271258191}
+  - {fileID: 1837645423}
+  correctAnswer: {fileID: 2076537426}
 --- !u!1 &1986946343
 GameObject:
   m_ObjectHideFlags: 0
@@ -29276,7 +29345,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2076537425}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &2076537427
