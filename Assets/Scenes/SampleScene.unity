@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18376267, g: 0.229132, b: 0.30449006, a: 1}
+  m_IndirectSpecularColor: {r: 0.18376288, g: 0.22913277, b: 0.30449075, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -324,6 +324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 52511223}
+  - component: {fileID: 52511224}
   m_Layer: 0
   m_Name: Pregunta 11
   m_TagString: Untagged
@@ -351,6 +352,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -134.9, z: 0}
+--- !u!114 &52511224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52511222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 286545245}
+  - {fileID: 1994042731}
+  - {fileID: 1342892823}
+  - {fileID: 2104894674}
+  listOfWrongAnswers:
+  - {fileID: 286545246}
+  - {fileID: 1994042732}
+  - {fileID: 2104894675}
+  correctAnswer: {fileID: 1342892824}
 --- !u!1001 &72211574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -447,7 +470,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 72211576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &72211578
@@ -4217,7 +4240,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 295654126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &295654128
@@ -4762,6 +4785,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 340132615}
+  - component: {fileID: 340132616}
   m_Layer: 0
   m_Name: Pregunta 3
   m_TagString: Untagged
@@ -4789,6 +4813,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &340132616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340132614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 1832406184}
+  - {fileID: 666965573}
+  - {fileID: 1807096074}
+  - {fileID: 99793423}
+  listOfWrongAnswers:
+  - {fileID: 1832406185}
+  - {fileID: 1807096075}
+  - {fileID: 99793424}
+  correctAnswer: {fileID: 666965574}
 --- !u!1 &341437038
 GameObject:
   m_ObjectHideFlags: 0
@@ -5258,7 +5304,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 354443196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &354443198
@@ -5370,7 +5416,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 358378389}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &358378391
@@ -6111,7 +6157,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 423785414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &423785416
@@ -6396,6 +6442,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 455490291}
+  - component: {fileID: 455490292}
   m_Layer: 0
   m_Name: Pregunta 5
   m_TagString: Untagged
@@ -6423,6 +6470,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &455490292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455490290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 620746057}
+  - {fileID: 1783605950}
+  - {fileID: 1334661444}
+  - {fileID: 447991020}
+  listOfWrongAnswers:
+  - {fileID: 1783605951}
+  - {fileID: 1334661445}
+  - {fileID: 447991021}
+  correctAnswer: {fileID: 620746058}
 --- !u!1 &465181269
 GameObject:
   m_ObjectHideFlags: 0
@@ -6799,6 +6868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 514969519}
+  - component: {fileID: 514969520}
   m_Layer: 0
   m_Name: Pregunta 4
   m_TagString: Untagged
@@ -6826,6 +6896,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!114 &514969520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514969518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 72211576}
+  - {fileID: 1338035129}
+  - {fileID: 1751286078}
+  - {fileID: 354443196}
+  listOfWrongAnswers:
+  - {fileID: 72211577}
+  - {fileID: 1338035130}
+  - {fileID: 1751286079}
+  correctAnswer: {fileID: 354443197}
 --- !u!1 &524274698
 GameObject:
   m_ObjectHideFlags: 0
@@ -7689,7 +7781,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 561359767}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &561359769
@@ -8362,6 +8454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 603848004}
+  - component: {fileID: 603848005}
   m_Layer: 0
   m_Name: Pregunta 1
   m_TagString: Untagged
@@ -8389,6 +8482,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &603848005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603848003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 708153406}
+  - {fileID: 502790196}
+  - {fileID: 88813550}
+  - {fileID: 1475730934}
+  listOfWrongAnswers:
+  - {fileID: 708153407}
+  - {fileID: 502790198}
+  - {fileID: 88813552}
+  correctAnswer: {fileID: 1475730936}
 --- !u!1 &606896362
 GameObject:
   m_ObjectHideFlags: 0
@@ -9189,7 +9304,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 654828157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &658722718
@@ -9317,7 +9432,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 666965573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &666965575
@@ -9808,6 +9923,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 705374363}
+  - component: {fileID: 705374364}
   m_Layer: 0
   m_Name: Pregunta 12
   m_TagString: Untagged
@@ -9835,6 +9951,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!114 &705374364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705374362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 1648744740}
+  - {fileID: 639639142}
+  - {fileID: 1956168838}
+  - {fileID: 1704647869}
+  listOfWrongAnswers:
+  - {fileID: 1648744741}
+  - {fileID: 639639143}
+  - {fileID: 1704647870}
+  correctAnswer: {fileID: 1956168839}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -10045,6 +10183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 708071875}
+  - component: {fileID: 708071876}
   m_Layer: 0
   m_Name: Pregunta 10
   m_TagString: Untagged
@@ -10072,6 +10211,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -225.22, z: 0}
+--- !u!114 &708071876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708071874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 2125277144}
+  - {fileID: 616714272}
+  - {fileID: 358378389}
+  - {fileID: 985318005}
+  listOfWrongAnswers:
+  - {fileID: 2125277145}
+  - {fileID: 616714273}
+  - {fileID: 985318006}
+  correctAnswer: {fileID: 358378390}
 --- !u!1 &708153406 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 86dcf0c7ad7107d4983c7c11575dc998, type: 3}
@@ -10086,7 +10247,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 708153406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &708153408
@@ -10502,6 +10663,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 775450726}
+  - component: {fileID: 775450727}
   m_Layer: 0
   m_Name: Pregunta 2
   m_TagString: Untagged
@@ -10529,6 +10691,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &775450727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775450725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 1142346941}
+  - {fileID: 1781374517}
+  - {fileID: 1415061775}
+  - {fileID: 417802102}
+  listOfWrongAnswers:
+  - {fileID: 1781374518}
+  - {fileID: 1415061776}
+  - {fileID: 417802103}
+  correctAnswer: {fileID: 1142346942}
 --- !u!1 &782584060
 GameObject:
   m_ObjectHideFlags: 0
@@ -11336,6 +11520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 861766830}
+  - component: {fileID: 861766831}
   m_Layer: 0
   m_Name: Pregunta 6
   m_TagString: Untagged
@@ -11363,6 +11548,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &861766831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861766829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 561359767}
+  - {fileID: 528116908}
+  - {fileID: 295654126}
+  - {fileID: 2035566512}
+  listOfWrongAnswers:
+  - {fileID: 561359768}
+  - {fileID: 528116909}
+  - {fileID: 2035566513}
+  correctAnswer: {fileID: 295654127}
 --- !u!1 &861850418
 GameObject:
   m_ObjectHideFlags: 0
@@ -13798,6 +14005,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 984626632}
+  - component: {fileID: 984626633}
   m_Layer: 0
   m_Name: Pregunta 13
   m_TagString: Untagged
@@ -13825,6 +14033,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &984626633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984626631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 1851697555}
+  - {fileID: 2031221117}
+  - {fileID: 105814421}
+  - {fileID: 1611269748}
+  listOfWrongAnswers:
+  - {fileID: 1851697556}
+  - {fileID: 105814422}
+  - {fileID: 1611269749}
+  correctAnswer: {fileID: 2031221118}
 --- !u!1001 &985318003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13913,7 +14143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 985318005}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &985318007
@@ -14642,7 +14872,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1039831019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1039831021
@@ -17527,6 +17757,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1282761187}
+  - component: {fileID: 1282761188}
   m_Layer: 0
   m_Name: Pregunta 9
   m_TagString: Untagged
@@ -17554,6 +17785,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1282761188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282761186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 1516185576}
+  - {fileID: 1839539388}
+  - {fileID: 2086591230}
+  - {fileID: 1039831019}
+  listOfWrongAnswers:
+  - {fileID: 1839539389}
+  - {fileID: 2086591231}
+  - {fileID: 1039831020}
+  correctAnswer: {fileID: 1516185577}
 --- !u!1001 &1283622342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18501,6 +18754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1341319782}
+  - component: {fileID: 1341319783}
   m_Layer: 0
   m_Name: Pregunta 7
   m_TagString: Untagged
@@ -18528,6 +18782,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -225.4, z: 0}
+--- !u!114 &1341319783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341319781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 1606682330}
+  - {fileID: 654828157}
+  - {fileID: 1461044537}
+  - {fileID: 1649787149}
+  listOfWrongAnswers:
+  - {fileID: 1606682332}
+  - {fileID: 1461044539}
+  - {fileID: 1649787151}
+  correctAnswer: {fileID: 654828159}
 --- !u!1001 &1342892821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18624,7 +18900,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1342892823}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1342892825
@@ -18928,7 +19204,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1370336607}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1370336609
@@ -19906,6 +20182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1462148853}
+  - component: {fileID: 1462148854}
   m_Layer: 0
   m_Name: Pregunta 14
   m_TagString: Untagged
@@ -19933,6 +20210,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1462148854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462148852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 1168876047}
+  - {fileID: 1918858433}
+  - {fileID: 1283622344}
+  - {fileID: 637688889}
+  listOfWrongAnswers:
+  - {fileID: 1918858434}
+  - {fileID: 1283622345}
+  - {fileID: 637688890}
+  correctAnswer: {fileID: 1168876048}
 --- !u!1001 &1464425008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20034,7 +20333,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1475730934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1483528349
@@ -20792,7 +21091,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1516185576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1516185578
@@ -22429,7 +22728,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1648744740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1648744742
@@ -22646,7 +22945,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1649787149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1656965806
@@ -24298,6 +24597,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1811654792}
+  - component: {fileID: 1811654793}
   m_Layer: 0
   m_Name: Pregunta 8
   m_TagString: Untagged
@@ -24325,6 +24625,28 @@ Transform:
   m_Father: {fileID: 165630110}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -63.8, z: 0}
+--- !u!114 &1811654793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811654791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce39119e2d78842951171f10154d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfAnswers:
+  - {fileID: 423785414}
+  - {fileID: 560148900}
+  - {fileID: 1190635460}
+  - {fileID: 1370336607}
+  listOfWrongAnswers:
+  - {fileID: 560148901}
+  - {fileID: 1190635461}
+  - {fileID: 1370336608}
+  correctAnswer: {fileID: 423785415}
 --- !u!1 &1817113103
 GameObject:
   m_ObjectHideFlags: 0
@@ -24662,7 +24984,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1832406184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1832406186
@@ -25082,7 +25404,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1851697555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1851697557
@@ -26543,7 +26865,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1956168838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &1956168840
@@ -27652,7 +27974,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2031221117}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &2031221119
@@ -29441,7 +29763,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2104894674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c908027df324284182683fff8106c96, type: 3}
+  m_Script: {fileID: 11500000, guid: e93f6c280ea9f2441a3dcfd10e6ff335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &2104894676
