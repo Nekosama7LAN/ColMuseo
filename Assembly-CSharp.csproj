@@ -69,6 +69,7 @@
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Gamemanager.cs" />
     <Compile Include="Assets\Scripts\GravityRoomEnter.cs" />
+    <Compile Include="Assets\Scripts\Disparo\ShooterSwitch.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\CicleDayAndNight.cs" />
@@ -84,7 +85,7 @@
     <Compile Include="Assets\Scripts\Disparo\Bullet.cs" />
     <Compile Include="Assets\Scripts\CursorHide.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\Scripts\Disparo\ShooterSwitch.cs" />
+    <Compile Include="Assets\Scripts\Welcome.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
