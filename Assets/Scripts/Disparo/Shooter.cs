@@ -7,21 +7,23 @@ public class Shooter : MonoBehaviour
     [SerializeField] float shootForce = 1500f;
     [SerializeField] float shootRate = 1.5f;
     [SerializeField] float shootRateTime = 0;
+    public float counter = 0;
     void Update()
     {
-
-        if (Input.GetButtonDown("Fire1"))
+        if (counter > 0)
         {
-            if (Time.time > shootRateTime)
+            if (Input.GetButtonDown("Fire1"))
             {
-                GameObject newBullet;
-                newBullet = Instantiate(bullet, spawnpoint.position, spawnpoint.rotation);
-                newBullet.GetComponent<Rigidbody>().AddForce(spawnpoint.forward * shootForce);
-                shootRateTime = Time.time + shootRate;
+                if (Time.time > shootRateTime)
+                {
+                    GameObject newBullet;
+                    newBullet = Instantiate(bullet, spawnpoint.position, spawnpoint.rotation);
+                    newBullet.GetComponent<Rigidbody>().AddForce(spawnpoint.forward * shootForce);
+                    shootRateTime = Time.time + shootRate;
 
-                Destroy(newBullet, 5);
+                    Destroy(newBullet, 5);
+                }
             }
         }
-
     }
 }

@@ -1,0 +1,21 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 8.1  (6.3.0) 64bit' Language: 'es' Physical Memory: 7116 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/familia/Documents/GitHub/ColMuseo
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+61642
+Successfully changed project path to: C:/Users/familia/Documents/GitHub/ColMuseo
+C:/Users/familia/Documents/GitHub/ColMuseo
+Using Asset Import Pipeline V2.
