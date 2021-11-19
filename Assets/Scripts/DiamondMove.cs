@@ -24,7 +24,7 @@ public class DiamondMove : MonoBehaviour
             transform.position = Finalpos;
             counter = counter + 1 * Time.deltaTime;
             counterDown = 5f;
-            transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
+            transform.Rotate(new Vector3(0f, 0f, 100f) * Time.deltaTime);
         }
         else
         {
@@ -32,7 +32,7 @@ public class DiamondMove : MonoBehaviour
             Finalpos = Initpos - DestPos * Time.deltaTime * speed;
             transform.position = Finalpos;
             counterDown = counterDown - 1 * Time.deltaTime;
-            transform.Rotate(new Vector3(0f, -100f, 0f) * Time.deltaTime);
+            transform.Rotate(new Vector3(0f, 0f, -100f) * Time.deltaTime);
             if (counterDown < 0)
             {
                 counter = 0;
