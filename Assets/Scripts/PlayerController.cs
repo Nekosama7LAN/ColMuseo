@@ -46,10 +46,6 @@ public class PlayerController : MonoBehaviour
         Look();
         Move();
         PlataformUp();
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            TpPlayerTo();
-        }
     }
 
     private void Move()
@@ -122,13 +118,6 @@ public class PlayerController : MonoBehaviour
 
     private void TpPlayerTo()
     {
-        print("win");
-        Bait();
-    }
-
-    private void Bait()
-    {
         this.transform.position = tp;
-
     }
 }
