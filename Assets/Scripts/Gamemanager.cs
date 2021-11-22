@@ -1,25 +1,36 @@
+using System;
 using UnityEngine;
 
 public class Gamemanager : MonoBehaviour
 {
+    public event Action OnTpPlayer;
+
     [SerializeField] GravityRoomEnter gravityRoomEnter = null;
     [SerializeField] GravityRoomExit gravityRoomExit = null;
+
+    [SerializeField] TpButton tpButton = null;
 
     [SerializeField] PlayerController player = null;
 
     void Start()
     {
-        gravityRoomExit.OnExit += GravityRestart;
-        gravityRoomEnter.OnEnter += RoomOfGravityUp;
+        tpButton.OnTeleport += TpPlayer;
+        //gravityRoomExit.OnExit += GravityRestart;
+        //gravityRoomEnter.OnEnter += RoomOfGravityUp;
     }
 
-    void RoomOfGravityUp()
+    private void TpPlayer()
     {
-        player.gravityScale = -2f;
+        OnTpPlayer?.Invoke();
     }
 
-    void GravityRestart()
-    {
-        player.gravityScale = -20;
-    }
+    //void RoomOfGravityUp()
+    //{
+    //    player.gravityScale = -2f;
+    //}
+
+    //void GravityRestart()
+    //{
+    //    player.gravityScale = -20;
+    //}
 }

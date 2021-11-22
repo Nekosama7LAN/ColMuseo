@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("References")]
     public Camera playerCamera;
+    public Gamemanager gamemanager;
 
     [Header("General")]
     public float gravityScale = -20f;
@@ -32,9 +33,12 @@ public class PlayerController : MonoBehaviour
     public float counter = 5;
     public float speed = 0;
 
+    private Vector3 tp = new Vector3(82f, 22f, 64f);
+
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
+        gamemanager.OnTpPlayer += TpPlayerTo;
     }
 
     private void Update()
@@ -42,9 +46,9 @@ public class PlayerController : MonoBehaviour
         Look();
         Move();
         PlataformUp();
-        if (Input.GetKey(KeyCode.U))
+        if (Input.GetKeyDown(KeyCode.U))
         {
-            transform.Translate(this.transform.position.x + 1 * Time.deltaTime, this.transform.position.y, this.transform.position.z);
+            TpPlayerTo();
         }
     }
 
@@ -114,5 +118,17 @@ public class PlayerController : MonoBehaviour
             transform.position = Finalpos;
             counter = counter + 1 * Time.deltaTime;
         }
+    }
+
+    private void TpPlayerTo()
+    {
+        print("win");
+        Bait();
+    }
+
+    private void Bait()
+    {
+        this.transform.position = tp;
+
     }
 }
