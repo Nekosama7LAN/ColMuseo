@@ -8,5 +8,6 @@ public class TpButton : MonoBehaviour
     private void OnMouseDown()
     {
         OnTeleport?.Invoke();
+
     }  
 }

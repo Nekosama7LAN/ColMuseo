@@ -17,5 +17,9 @@ public class FallenGlass : MonoBehaviour
         {
             rig.useGravity = true;
         }
+        //if (other.CompareTag("suelo"))
+        //{
+        //    gameObject.SetActive(false);
+        //}
     }
 }
