@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
     public float counter = 5;
     public float speed = 0;
 
-    private Vector3 tp = new Vector3(82f, 22f, 64f);
+    private Vector3 tp = new Vector3(136f, 22f, 158f);
 
     private void Awake()
     {
