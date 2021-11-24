@@ -17,13 +17,13 @@ public class DiamondMove : MonoBehaviour
 
     private void UpAndDownObject()
     {
-        if (counter < 5f)
+        if (counter < 1f)
         {
             Initpos = transform.position;
             Finalpos = Initpos + DestPos * Time.deltaTime * speed;
             transform.position = Finalpos;
             counter = counter + 1 * Time.deltaTime;
-            counterDown = 5f;
+            counterDown = 1f;
             transform.Rotate(new Vector3(0f, 0f, 100f) * Time.deltaTime);
         }
         else
