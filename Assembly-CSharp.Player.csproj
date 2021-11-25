@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\movetrain.cs" />
     <Compile Include="Assets\Scripts\CorrectAnswer.cs" />
     <Compile Include="Assets\Scripts\RotatioIcosphere.cs" />
     <Compile Include="Assets\Scripts\Elevator.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Assets\Scripts\GravityRoomEnter.cs" />
     <Compile Include="Assets\Scripts\ToboganForce.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\CicleDayAndNight.cs" />
     <Compile Include="Assets\Scripts\FallenGlass.cs" />
     <Compile Include="Assets\Scripts\WrongAnswer.cs" />
@@ -77,7 +79,6 @@
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\Scripts\ElevatorButton.cs" />
-    <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\CursorHide.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
   </ItemGroup>
