@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Prueba : MonoBehaviour
 {
-    Print("Hola Mundo")
+    //Print("Hola Mundo")
 }
