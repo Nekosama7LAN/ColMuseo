@@ -7,6 +7,8 @@ TagManager:
   - Terreno
   - Museo
   - Boton
+  - Fire
+  - JumpAvalible
   layers:
   - Default
   - TransparentFX

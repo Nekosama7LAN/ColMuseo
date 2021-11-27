@@ -5,8 +5,14 @@ public class Gamemanager : MonoBehaviour
 {
     public event Action OnTpPlayer;
 
-    [SerializeField] GravityRoomEnter gravityRoomEnter = null;
+    public event Action OnPause;
+    public event Action OnContinue;
+
+
+    [SerializeField] GravityRoomEnter gravityRoomEnter;
     [SerializeField] GravityRoomExit gravityRoomExit = null;
+    [SerializeField] GravityRoomExit gravityRoomExitTwo = null;
+
 
     [SerializeField] TpButton tpButton = null;
 
@@ -18,8 +24,10 @@ public class Gamemanager : MonoBehaviour
     void Start()
     {
         tpButton.OnTeleport += TpPlayer;
-        //gravityRoomExit.OnExit += GravityRestart;
-        //gravityRoomEnter.OnEnter += RoomOfGravityUp;
+        gravityRoomExit.OnExit += GravityRestart;
+        gravityRoomEnter.OnEnter += RoomOfGravityUp;
+        gravityRoomExitTwo.OnExit += GravityRestart;
+
     }
 
     private void Update()
@@ -30,7 +38,7 @@ public class Gamemanager : MonoBehaviour
     private void PauseTheGame()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
-        {
+        { 
             PauseGame();
         }
     }
@@ -40,11 +48,15 @@ public class Gamemanager : MonoBehaviour
         isPlay = !isPlay;
         if (isPlay == false)
         {
+            pauseScreen.gameObject.SetActive(true);
+            OnPause?.Invoke();
             Time.timeScale = 0f;
         }
         else
         {
             Time.timeScale = 1f;
+            pauseScreen.gameObject.SetActive(false);
+            OnContinue?.Invoke();
         }
     }
 
@@ -53,13 +65,15 @@ public class Gamemanager : MonoBehaviour
         OnTpPlayer?.Invoke();
     }
 
-    //void RoomOfGravityUp()
-    //{
-    //    player.gravityScale = -2f;
-    //}
+    void RoomOfGravityUp()
+    {
+        player.gravityScale = -2f;
+        player.avalibleJumps = 20;
+    }
 
-    //void GravityRestart()
-    //{
-    //    player.gravityScale = -20;
-    //}
+    void GravityRestart()
+    {
+        player.gravityScale = -20;
+        player.avalibleJumps = 2;
+    }
 }

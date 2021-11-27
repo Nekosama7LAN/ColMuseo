@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
     {
         if (OnGround == true)
         {
-            if (hit.collider.CompareTag("Terreno"))
+            if (hit.collider.CompareTag("JumpAvalible"))
             {
                 actualJumps = avalibleJumps;
                 OnGround = false;
