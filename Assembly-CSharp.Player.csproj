@@ -58,7 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\movetrain.cs" />
     <Compile Include="Assets\Scripts\CorrectAnswer.cs" />
-    <Compile Include="Assets\Scripts\Disparo\Shooter (2).cs" />
+    <Compile Include="Assets\Scripts\Disparo\Shooter.cs" />
     <Compile Include="Assets\Scripts\RotatioIcosphere.cs" />
     <Compile Include="Assets\Scripts\Elevator.cs" />
     <Compile Include="Assets\Scripts\SceneControllerColmuseo.cs" />
@@ -81,7 +81,7 @@
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\Scripts\ElevatorButton.cs" />
-    <Compile Include="Assets\Scripts\Disparo\Bullet (1).cs" />
+    <Compile Include="Assets\Scripts\Disparo\Bullet.cs" />
     <Compile Include="Assets\Scripts\CursorHide.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
   </ItemGroup>
