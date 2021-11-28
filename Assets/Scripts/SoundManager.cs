@@ -29,7 +29,6 @@ public class SoundManager : MonoBehaviour
 
     void PlayCorrectSound()
     {
-        print("gunca");
         source.clip = sonidoMoneda;
         source.Play();
     }

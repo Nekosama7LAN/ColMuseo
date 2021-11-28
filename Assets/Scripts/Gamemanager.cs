@@ -21,12 +21,17 @@ public class Gamemanager : MonoBehaviour
     private bool isPlay = true;
     [SerializeField] private Canvas pauseScreen;
 
-    void Start()
+    private void Awake()
     {
-        tpButton.OnTeleport += TpPlayer;
         gravityRoomExit.OnExit += GravityRestart;
         gravityRoomEnter.OnEnter += RoomOfGravityUp;
         gravityRoomExitTwo.OnExit += GravityRestart;
+    }
+
+    void Start()
+    {
+        tpButton.OnTeleport += TpPlayer;
+        
 
     }
 

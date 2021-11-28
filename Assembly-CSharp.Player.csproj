@@ -61,7 +61,6 @@
     <Compile Include="Assets\Scripts\Disparo\Shooter.cs" />
     <Compile Include="Assets\Scripts\RotatioIcosphere.cs" />
     <Compile Include="Assets\Scripts\Elevator.cs" />
-    <Compile Include="Assets\Scripts\Welcome.cs" />
     <Compile Include="Assets\Scripts\SceneControllerColmuseo.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\Scripts\Disparo\Ballon.cs" />
