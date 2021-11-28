@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1600
     height: 817
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 123
+  controlID: 129
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 89
+  controlID: 99
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,9 +380,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 17.14073, y: 17.46816, z: 83.30445}
+    m_Target: {x: 17.45204, y: 20.449581, z: 81.47905}
     speed: 2
-    m_Value: {x: 17.140732, y: 17.46816, z: 83.30445}
+    m_Value: {x: 17.45204, y: 20.449581, z: 81.47905}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -429,13 +429,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.46
   m_Rotation:
-    m_Target: {x: -0.03574121, y: -0.60050285, z: 0.03911661, w: -0.7995369}
+    m_Target: {x: 0.01245481, y: -0.7093235, z: 0.0011468428, w: -0.7066641}
     speed: 2
-    m_Value: {x: -0.037555747, y: -0.6313508, z: 0.04332822, w: -0.77337456}
+    m_Value: {x: 0.012434719, y: -0.7062579, z: 0.0011826239, w: -0.7078443}
   m_Size:
     m_Target: 4.46963
     speed: 2
-    m_Value: 4.46971
+    m_Value: 4.46963
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -512,10 +512,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 120}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 1efbffff844b0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 1e4d0000
+      m_LastClickedID: 19742
+      m_ExpandedIDs: 24fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -577,22 +577,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/3D
+    - Assets/IgniteCoders/Simple Water Shader/Info
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/3D
+  - Assets/IgniteCoders/Simple Water Shader/Info
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\57302\OneDrive\Documentos\GitHub\ColMuseo\ColMuseo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 59}
-    m_SelectedIDs: bc570000
-    m_LastClickedID: 22460
-    m_ExpandedIDs: 00000000b0570000b2570000b4570000b857000000ca9a3b
+    m_SelectedIDs: b8570000
+    m_LastClickedID: 22456
+    m_ExpandedIDs: 00000000a0570000a2570000a4570000a857000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b0570000b2570000b4570000
+    m_ExpandedIDs: 00000000a0570000a2570000a4570000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -647,7 +647,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b61800000000000068460000a6160000b21b0000a46600003c580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -672,7 +672,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 18}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
