@@ -66,12 +66,14 @@
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\Scripts\Disparo\Ballon.cs" />
     <Compile Include="Assets\Scripts\PaintController.cs" />
+    <Compile Include="Assets\Scripts\EndSound.cs" />
     <Compile Include="Assets\Scripts\TpButton.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Gamemanager.cs" />
     <Compile Include="Assets\Scripts\GravityRoomEnter.cs" />
     <Compile Include="Assets\Scripts\Disparo\ShooterSwitch.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\StartSound.cs" />
     <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\CicleDayAndNight.cs" />
     <Compile Include="Assets\Scripts\FallenGlass.cs" />

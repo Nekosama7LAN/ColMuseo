@@ -3,30 +3,34 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    [SerializeField] private AudioClip miSonido;
+    [SerializeField] private AudioClip sonidoMoneda;
+    [SerializeField] private AudioClip sonidoIncorrecto;
+
     [SerializeField] private AudioSource source;
 
-    [SerializeField] private WrongAnswer wrongAnswer = null;
+    [SerializeField] private WrongAnswer wrongAnswer;
 
     [SerializeField] private Score score;
     
     void Start()
     {
-        wrongAnswer.OnWrong += PlayWrongAnswerSound;
-
-        score.OnCorrectSound += PlaySound;
-
         source = GetComponent<AudioSource>();
-        source.clip = miSonido;
+
+        score.OnWrongSound += PlayWrongAnswerSound;
+
+        score.OnCorrectSound += PlayCorrectSound;
     }
 
     private void PlayWrongAnswerSound()
     {
-        
+        source.clip = sonidoIncorrecto;
+        source.Play();
     }
 
-    void PlaySound()
+    void PlayCorrectSound()
     {
+        print("gunca");
+        source.clip = sonidoMoneda;
         source.Play();
     }
 }

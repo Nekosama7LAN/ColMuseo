@@ -8,6 +8,5 @@ public class CorrectAnswer : MonoBehaviour
     private void OnMouseDown()
     {
         OnCorrect?.Invoke();
-        this.GetComponent<AudioSource>().Play();
     }
 }
