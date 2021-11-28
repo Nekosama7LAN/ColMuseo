@@ -2586,7 +2586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &165630110
 Transform:
   m_ObjectHideFlags: 0
@@ -11064,7 +11064,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 691829172}
-  - component: {fileID: 691829171}
   - component: {fileID: 691829170}
   - component: {fileID: 691829174}
   - component: {fileID: 691829173}
@@ -11075,7 +11074,7 @@ GameObject:
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &691829170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11094,21 +11093,6 @@ MonoBehaviour:
   tpButton: {fileID: 0}
   player: {fileID: 1179105543}
   pauseScreen: {fileID: 253375181}
---- !u!114 &691829171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691829169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8d7b4dda991c8441a8108466e5a1b53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  listOfCorrectAnswers:
-  - {fileID: 0}
-  score: {fileID: 1995874254}
 --- !u!4 &691829172
 Transform:
   m_ObjectHideFlags: 0
@@ -11234,7 +11218,7 @@ MonoBehaviour:
   miSonido: {fileID: 8300000, guid: 7ff488737a434e64ba28fe395eb86eb3, type: 3}
   source: {fileID: 691829173}
   wrongAnswer: {fileID: 0}
-  score: {fileID: 691829171}
+  score: {fileID: 0}
 --- !u!114 &691829175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11247,7 +11231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea85e30b8b06a4147a537c4d14e363e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gamemanager: {fileID: 0}
+  gamemanager: {fileID: 691829170}
 --- !u!1001 &705068692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11403,7 +11387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -12256,7 +12240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &782584061
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19516,7 +19500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1240817519
 Transform:
   m_ObjectHideFlags: 0
@@ -23635,7 +23619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e4c20af79c6f3674ab6ad63d0af10367, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4c20af79c6f3674ab6ad63d0af10367, type: 3}
@@ -28527,7 +28511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1821464362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29632,7 +29616,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1874155018}
   - component: {fileID: 1874155017}
-  - component: {fileID: 1874155016}
   - component: {fileID: 1874155015}
   - component: {fileID: 1874155014}
   m_Layer: 0
@@ -29667,47 +29650,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 741f1158b0d981c4cb7f4b4977af3f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!23 &1874155016
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874155013}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1874155017
 MeshFilter:
   m_ObjectHideFlags: 0
