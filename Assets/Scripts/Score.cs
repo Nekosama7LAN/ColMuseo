@@ -33,7 +33,7 @@ public class Score : MonoBehaviour
     {
         OnWrongSound?.Invoke();
     }
-
+    
     private void ScoreUp()
     {
         counter++;
