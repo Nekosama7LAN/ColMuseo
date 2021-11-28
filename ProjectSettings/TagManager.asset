@@ -9,6 +9,8 @@ TagManager:
   - Boton
   - Fire
   - JumpAvalible
+  - Projectile
+  - Ballon
   layers:
   - Default
   - TransparentFX
